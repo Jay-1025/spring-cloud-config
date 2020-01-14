@@ -5,13 +5,13 @@ spring:
 
 ---
 server:
-	port: 8201
+  port: 8201
 spring:
   profiles: dev
   application:
     name: spring-cloud-config-client
     
- eureka:
+eureka:
   client:
     service-url:
        defaultZone: http://eureka7001.com:7001/eureka/
@@ -20,13 +20,13 @@ spring:
 ---
 
 server:
-	port: 8202
+  port: 8202
 spring:
   profiles: test
   application:
     name: spring-cloud-config-client
     
- eureka:
+eureka:
   client:
     service-url:
        defaultZone: http://eureka7001.com:7001/eureka/
